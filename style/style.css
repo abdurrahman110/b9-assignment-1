@@ -1,3 +1,5 @@
+/* Common Css */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,6 +14,8 @@
 .merriweather {
   font-family: "Merriweather", serif;
 }
+
+/* Banner Css */
 
 .banner {
   padding: 250px 0;
@@ -42,4 +46,39 @@
   font-size: 72px;
   font-weight: 900;
   line-height: 95px;
+}
+
+/* Category Css */
+
+.category {
+  padding: 120px 0;
+}
+
+.category_container {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.discount_text {
+  color: #f00;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.category_sub_title {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.category_title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 48px;
 }
