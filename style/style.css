@@ -12,3 +12,34 @@
 .merriweather {
   font-family: "Merriweather", serif;
 }
+
+.banner {
+  padding: 250px 0;
+  background: url("../assets/banner-Image.png"),
+    linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-blend-mode: multiply;
+  color: #fff;
+  text-align: center;
+}
+
+.banner_container {
+  max-width: 632px;
+  margin: 0 auto;
+}
+
+.banner_subtitle {
+  font-size: 32px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.banner_title {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
