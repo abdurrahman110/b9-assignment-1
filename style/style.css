@@ -15,6 +15,18 @@
   font-family: "Merriweather", serif;
 }
 
+.btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #f00;
+  padding: 15px 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
 /* Banner Css */
 
 .banner {
@@ -124,17 +136,6 @@
   margin-bottom: 24px;
 }
 
-.party_btn {
-  font-size: 20px;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-  color: #fff;
-  background-color: #f00;
-  padding: 15px 30px;
-  border-radius: 10px;
-}
-
 .party_img {
   flex-basis: 40%;
   text-align: right;
@@ -142,4 +143,111 @@
 
 .party_img img {
   max-width: 320px;
+}
+
+/* CTA CSS */
+
+.cta {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  margin-top: 120px;
+  padding: 110px 0;
+}
+
+.cta_container {
+  text-align: center;
+  max-width: 576px;
+  margin: 0 auto;
+}
+
+.red {
+  color: #f00;
+}
+
+.event_txt {
+  margin-bottom: 48px;
+}
+
+.event_time {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+/* Coming Soon CSS */
+.coming_soon {
+  padding: 120px 40px;
+}
+
+.coming_soon_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.offer_container {
+  align-self: center;
+}
+
+.offer_subtitle {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.offer_title {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+
+.offer_description {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.offer_img {
+  text-align: center;
+}
+
+.img_wrapper {
+  padding: 50px;
+  border: 15px solid #f00;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.offer_year_container {
+  align-self: center;
+}
+
+.offer_year {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.year_txt {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 42px;
+}
+
+.offer_year_img {
+  width: 140px;
 }
